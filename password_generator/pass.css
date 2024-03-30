@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container{
+    border: 1px solid green;
+    width: 350px;
+    height: 450px;
+}
+
+
+.head{
+    background-color: goldenrod;
+    text-align: center;
+    height: 50px;
+}
+
+.input_field{
+    width: 300px;
+    height: 30px;
+    text-align:center;
+    color: blue;
+}
+.btn{
+    width:40px ;
+    height: 33px;
+    background-color: goldenrod;
+    border: none;
+    margin-left: 5px;
+    border-radius:3px;
+}
+
+.Avinash{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.maxnumber{
+    width: 30px;
+}
+
+.generate_btn{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.generate{
+    width: 150px;
+    height: 30px;
+    background-color: goldenrod;
+    color: white;
+    border:none;
+    border-radius:5px;
+}

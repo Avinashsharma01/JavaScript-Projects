@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 300px;
+    height: 450px;
+    background-color: rgb(186, 179, 179);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 20px;
+}
+h1{
+    color: rgb(130, 24, 24);
+}
+.aria{
+    border-radius: 20px;
+    padding: 5px 20px 5px 20px;
+    background-color: gray;
+    box-shadow: inset 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    color: white;
+    cursor: pointer;
+    
+}
+::placeholder{
+    color: white;
+}
+.btn{
+    width: auto;
+    height: 25px;
+    padding: 5px;
+    background-color: rgb(193, 98, 98);
+    border: none;
+    color: white;
+    border-radius:20px ;
+    cursor: pointer;
+}
+
+.btn:active{
+    background-color: red;
+    color: white;
+}
+
+table{
+    border-collapse: collapse;
+    border: 1px solid red;
+}
+th{
+    padding: 0px 5px;
+}
+/* It's very important */
+/* It's very important */
+.aria::-webkit-scrollbar{
+    display: none;
+}
+/* It's very important */
+/* It's very important */
