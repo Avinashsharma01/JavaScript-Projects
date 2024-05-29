@@ -77,12 +77,6 @@ qrbutton.addEventListener('click', ()=>{
 
 
 
-
-
-
-
-
-
 let textinput=document.querySelector('.textinput');
 let output=document.querySelector('.output');
 
@@ -121,3 +115,6 @@ textinput.addEventListener('input', ()=>{
 
 
 // !\”\#\$\%\&\’\(\)\*\+\,\-\.\/\<\>\?\:\;\[\]\@\
+
+// check number is even or odd
+

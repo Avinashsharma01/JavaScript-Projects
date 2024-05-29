@@ -66,6 +66,7 @@ label4.innerText=quiz[start].ans4text;
 submit.addEventListener("click", ()=>{
     let checked=document.querySelector('input[type="radio"]:checked');
     console.log(checked);
+    console.log("Hello World")
     // console.log(checked.nextElementSibling.innerText);
     if(checked===null){
         alert("You have to check the answer");
