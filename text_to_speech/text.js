@@ -1,4 +1,5 @@
-function click(){
+
+function TextToSpeech(){
     let text = document.querySelector('#text')
     let a = window.speechSynthesis;
     let b = new SpeechSynthesisUtterance(`${text.value}`);

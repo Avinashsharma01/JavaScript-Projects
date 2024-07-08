@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 80%;
+    height: 30px;
+    border: 1px solid black;
+    /* display: flex; */
+    border-radius: 20px;
+}
+
+.loadingbaar {
+    width: 0;
+    height: 100%;
+    background-color: orange;
+    border-radius: 20px;
+    /* background-color: gray; */
+    transition: all;
+    
+}
+
+.percentage {
+    /* background-color: red; */
+    position: absolute;
+    font-size: 20px;
+    position: absolute;
+    top:40%;
+    left: 49%;
+   
+}

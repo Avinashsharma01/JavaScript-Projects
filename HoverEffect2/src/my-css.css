@@ -1,0 +1,13 @@
+.squre{
+    width: 10px;
+    height: 10px;
+    background-color: rgb(32, 32, 32);
+    margin-right: 2px;
+    transition: 2s ease-out;
+     border-radius: 50%;
+}
+
+
+.squre:hover{
+    transition-duration:0ms ;
+}

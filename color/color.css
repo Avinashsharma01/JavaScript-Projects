@@ -27,6 +27,9 @@ body{
     width: 100px;
     height: 100px;
     margin-right: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #red{
@@ -45,4 +48,10 @@ body{
 }
 #black{
     background-color: black;
+}
+
+.boxColor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
