@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All mini projects</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./2-30-Weather/style.css">
+    <link rel="stylesheet" href="./1-30-To-Do-List/style.css">
+    <link rel="stylesheet" href="./Brave-Dropdown/dropdown.css">
+</head>
+<body>
+    <div id="projects">
+        <div class="project1">
+            <div class="wcontainer">
+                <div class="search">
+                    <input
+                        class="inputSearch"
+                        type="text"
+                        placeholder="Enter City Here...."
+                    />
+                    <button>
+                        <img class="SearchBtn" src="./2-30-Weather/images/search.png" alt="" />
+                    </button>
+                </div>
+    
+                <div class="cloud">
+                    <img class="weatherIcon" src="./2-30-Weather/images/rain.png" alt="" />
+                    <h1 class="temp">30°C</h1>
+                    <h2 class="city">delhi</h2>
+                </div>
+    
+                <div class="units">
+                    <div class="humidity">
+                        <img src="./2-30-Weather/images/humidity.png" alt="" />
+                        <div class="Humiditydata">
+                            <h1 class="Humidity">50%</h1>
+                            <h3>Humidity</h3>
+                        </div>
+                    </div>
+    
+                    <div class="wind">
+                        <img src="./2-30-Weather/images/wind.png" alt="" />
+                        <div class="Winddata">
+                            <h1 class="windspeed">15 km/h</h1>
+                            <h3>Wind Speed</h3>
+                        </div>
+                    </div>
+    
+                    <div class="windSpeed"></div>
+                </div>
+            </div>
+    
+        </div>
+        <div class="project2">
+            <div class="conatainer">
+                <div class="addToDo">
+                    <div class="first">
+                        <h1 class="head">To-Do-List</h1>
+                    <div class="datainput">
+                        <input type="text" id="input" placeholder="Write your task here.." />
+                        <button onclick="addtask()" >Add</button>
+                    </div>
+                    </div>
+    
+                    <div class="Second">
+                        <ul id="list-container">
+                            <!-- <li class="checked">Avinash</li>
+                            <li>Avinash</li>
+                            <li>Avinash</li> -->
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="project3">
+            <div class="container">
+                <div class="child" id="child1">
+                    <div class="left1">
+                        <i class="fa-solid fa-plus " id="I"></i>
+                        <p>New Tab</p>
+                    </div>
+                    <div class="right1">Ctrl+T</div>
+                </div>
+                <div class="child" id="child2">
+                    <div class="left1">
+                        <i class="fa-solid fa-plus " id="I"></i>
+                        <p>New Window</p>
+                    </div>
+                    <div class="right1">Ctrl+N</div>
+                </div>
+                <div class="child" id="child3">
+                    <div class="left1">
+                        <i class="fa-solid fa-plus " id="I"></i>
+                        <p>New Private Window</p>
+                    </div>
+                    <div class="right1">Ctrl+Shift+N</div>
+                </div>
+                <div class="child" id="child4">
+                    <div class="left1">
+                        <i class="fa-solid fa-plus " id="I"></i>
+                        <p>New Private Window with Tor</p>
+                    </div>
+                    <div class="right1">Alt+Shift+N</div>
+                </div>
+                <div class="child" id="child5">
+                    <div class="left1">
+                        <i class="fa-solid fa-plus " id="I"></i>
+                        <p>Wallet</p>
+                    </div>
+                    <div class="right1">Ctrl+T</div>
+                </div>
+                <div class="child" id="child6">
+                    <div class="left1">
+                        <i class="fa-solid fa-plus " id="I"></i>
+                        <p>Brave VPN</p>
+                    </div>
+                    <div class="right1">Ctrl+T</div>
+                </div>
+                <div class="child" id="child7">
+                    <div class="left1">
+                        <i class="fa-solid fa-plus " id="I"></i>
+                        <p>History</p>
+                    </div>
+                    <div class="right1">Ctrl+T</div>
+                </div>
+                <div class="child" id="child8">
+                    <div class="left1">
+                        <i class="fa-solid fa-plus " id="I"></i>
+                        <p>Bookmarks</p>
+                    </div>
+                    <div class="right1">Ctrl+T</div>
+                </div>
+                <div class="child" id="child9">
+                    <div class="left1">
+                        <i class="fa-solid fa-plus " id="I"></i>
+                        <p>Downloads</p>
+                    </div>
+                    <div class="right1">Ctrl+T</div>
+                </div>
+                <div class="child" id="child10">
+                    <div class="left1">
+                        <i class="fa-solid fa-plus " id="I"></i>
+                        <p>Extensions</p>
+                    </div>
+                    <div class="right1">Ctrl+T</div>
+                </div>
+                <div class="child" id="child11">
+                    <div class="left1">
+                        <i class="fa-solid fa-plus " id="I"></i>
+                        <p>Passward Manager</p>
+                    </div>
+                    <div class="right1">Ctrl+T</div>
+                </div>
+                <div class="child" id="child12">
+                    <div class="left1">
+                        <i class="fa-solid fa-plus " id="I"></i>
+                        <p>Zoom</p>
+                    </div>
+                    <div class="right1">Ctrl+T</div>
+                </div>
+                <div class="child" id="child13">
+                    <div class="left1">
+                        <i class="fa-solid fa-plus " id="I"></i>
+                        <p>Print...>>></p>
+                    </div>
+                    <div class="right1">Ctrl+t</div>
+                </div>
+                <div class="child" id="child14">
+                    <div class="left1">
+                        <i class="fa-solid fa-plus " id="I"></i>
+                        <p>Find..</p>
+                    </div>
+                    <div class="right1">Ctrl+F</div>
+                </div>
+                <div class="child" id="child15">
+                    <div class="left1">
+                        <i class="fa-solid fa-plus " id="I"></i>
+                        <p>More tools</p>
+                    </div>
+                    <div class="right1">Ctrl+T</div>
+                </div>
+                <div class="child" id="child16">
+                    <div class="left1">
+                        <i class="fa-solid fa-plus " id="I"></i>
+                        <p>Exit>>></p>
+                    </div>
+                    <div class="right1">Ctrl+T</div>
+                </div>
+                <div class="child" id="child17">
+                    <div class="left1">
+                        <i class="fa-solid fa-plus " id="I"></i>
+                        <p>Help</p>
+                    </div>
+                    <div class="right1">Ctrl+T</div>
+                </div>
+                <div class="child" id="child18">
+                    <div class="left1">
+                        <i class="fa-solid fa-plus " id="I"></i>
+                        <p>Settings</p>
+                    </div>
+                    <div class="right1">Ctrl+T</div>
+                </div>
+                <div class="child" id="child19">
+                    <div class="left1">
+                        <i class="fa-solid fa-plus " id="I"></i>
+                        <p>Exit</p>
+                    </div>
+                    <div class="right1">Ctrl+T</div>
+                </div>
+            </div>
+        
+            <!-- <div class="check">
+                <div class="happy">
+                    <input type="checkbox"  class="checkbox1" checked>
+                    <p>Happiness</p>
+                </div>
+                <div class="optimism">
+                    <input type="checkbox"  class="checkbox2">
+                    <p>Optimism</p>
+                </div>
+                <div class="kindness">
+                    <input type="checkbox"  class="checkbox3">
+                    <p>Kindness</p>
+                </div>
+                <div class="giving">
+                    <input type="checkbox"  class="checkbox4">
+                    <p>Giving</p>
+                </div>
+                <div class="respect">
+                    <input type="checkbox"  class="checkbox5">
+                    <p>Respect</p>
+                </div>
+                <div class="ego">
+                    <input type="checkbox"  class="checkbox6">
+                    <p>Ego</p>
+                </div>
+                
+            </div> -->
+        
+        </div>
+        <div class="project4"></div>
+    </div>
+    <script src="./script.js"></script>
+    <script src="./2-30-Weather/script.js"></script>
+    <script src="./1-30-To-Do-List/script.js"></script>
+    <script src="./Brave-Dropdown/dropdown.js"></script>
+</body>
+</html>
