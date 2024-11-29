@@ -1,71 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Add To Cart</title>
-    <link rel="stylesheet" href="./style.css">
-</head>
-<body>
-
-    <div class="container">
-        <header>
-            <div class="logo">
-                <h1>Avinash </h1>
-            </div>
-            <div class="cart">
-                <img class="CartIMG" src="./avi.jpg" alt="cart">
-                <span>0</span>
-            </div>
-        </header>
-
-
-
-        <div class="listproduct">
-            <div class="item">
-                <img src="./image/1.png" alt="">
-                <h1>Avinash</h1>
-                <p>$200</p>
-                <button>AddToCart</button>
-            </div>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="./style.css" />
+    </head>
+    <body>
+        <div class="head">
+            <h1>Hello world</h1>
         </div>
-        <div class="listproduct">
-            <div class="item">
-                <img src="./image/1.png" alt="">
-                <h1>Avinash</h1>
-                <p>$200</p>
-                <button>AddToCart</button>
-            </div>
-        </div>
-        <div class="listproduct">
-            <div class="item">
-                <img src="./image/1.png" alt="">
-                <h1>Avinash</h1>
-                <p>$200</p>
-                <button>AddToCart</button>
-            </div>
-        </div>
-        <div class="listproduct">
-            <div class="item">
-                <img src="./image/1.png" alt="">
-                <h1>Avinash</h1>
-                <p>$200</p>
-                <button>AddToCart</button>
-            </div>
-        </div>
-    </div>
+        <div id="product-list"></div>
+        <div id="sidebar">
+            <h3>Cart</h3>
+            <div id="cart-items"></div>
+            <div id="cart-total"></div>
 
-    <div class="CartTab">
-        <h1 class="shop">Shopping Cart</h1>
-        <div class="listCart">
-
+            <button id="checkout">Checkout</button>
         </div>
-        <div class="btns">
-            <button class="close">Close</button>
-            <button class="checkout">CheckOut</button>
-        </div>
-    </div>
-
-    <script src="./script.js"></script>
-</body>
+        <!-- Close and open -->
+        <p class="close">close</p>
+        <p class="open">open</p>
+        <script src="./script.js"></script>
+    </body>
 </html>

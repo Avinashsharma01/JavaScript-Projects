@@ -1,17 +1,15 @@
-*{
+* {
     margin: 0;
     padding: 0;
-
 }
-
-body{
+body {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100vw;
     height: 100vh;
 }
-.qrcontainer{
+.qrcontainer {
     width: 300px;
     height: 400px;
     background-color: #7b7777;
@@ -21,11 +19,11 @@ body{
     border-radius: 20px;
 }
 
-h2{
+h2 {
     margin-top: 20px;
 }
 
-.qrinput{
+.qrinput {
     margin-top: 15px;
     width: 280px;
     height: 30px;
@@ -34,7 +32,7 @@ h2{
     padding-left: 10px;
 }
 
-.qrbutton{
+.qrbutton {
     margin-top: 15px;
     width: 280px;
     height: 30px;
@@ -42,16 +40,13 @@ h2{
     border-radius: 20px;
     background-color: rgb(40, 122, 40);
     color: white;
-    
 }
 
-
-
-.qrimg{
+.qrimg {
     margin-top: 15px;
 }
 
-.qrdownload{
+.qrdownload {
     margin-top: 15px;
     width: 200px;
     height: 30px;
