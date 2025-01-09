@@ -10,22 +10,20 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: gray;
+    background-color: rgb(4, 77, 121);
 }
 
-.main-container{
+.main-container {
     width: 500px;
     height: 300px;
     overflow: hidden;
-  
 }
 
-img{
+img {
     width: 500px;
     height: 300px;
     border-radius: 20px;
 }
-
 
 .image-container {
     display: flex;
@@ -33,7 +31,7 @@ img{
     border-radius: 20px;
 }
 
-.btn{
+.btn {
     width: 100px;
     height: 30px;
     margin-top: 10px;

@@ -9,6 +9,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #0d688f;
+    color: white;
 }
 
 .container {
@@ -26,7 +28,6 @@ body {
     border-radius: 20px;
     /* background-color: gray; */
     transition: all;
-    
 }
 
 .percentage {
@@ -34,7 +35,6 @@ body {
     position: absolute;
     font-size: 20px;
     position: absolute;
-    top:40%;
+    top: 40%;
     left: 49%;
-   
 }

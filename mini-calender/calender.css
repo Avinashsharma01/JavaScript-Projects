@@ -1,19 +1,19 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-html , body{
+html,
+body {
     height: 100%;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: gray;
+    background-color: rgb(63, 79, 95);
 }
 
-
-.container{
+.container {
     width: 300px;
     height: 400px;
     background-color: rgb(213, 206, 206);
@@ -21,7 +21,7 @@ html , body{
     border-radius: 20px;
 }
 
-.year{
+.year {
     height: 50px;
     border-radius: 5px;
     background-color: #921a1a;
@@ -30,7 +30,7 @@ html , body{
     justify-content: space-around;
     color: white;
 }
-.day{
+.day {
     background-color: #07757f;
     height: 50px;
     margin-top: 10px;
@@ -40,17 +40,17 @@ html , body{
     align-items: center;
     border-radius: 5px;
 }
-.date{
+.date {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-#date{
+#date {
     font-size: 180px;
 }
-.time{
+.time {
     text-align: center;
     background-color: #2b7892;
     color: white;
-    border-radius:5px;
+    border-radius: 5px;
 }

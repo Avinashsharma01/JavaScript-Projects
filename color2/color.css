@@ -1,12 +1,12 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-.main{
+.main {
     height: 100vh;
     width: 100vw;
-    background-color: white;
+    background-color: rgb(4, 72, 105);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -14,7 +14,7 @@
     flex-wrap: wrap;
 }
 
-.red{
+.red {
     width: 200px;
     height: 100px;
     background-color: red;
@@ -24,7 +24,7 @@
     align-items: center;
     color: white;
 }
-.green{
+.green {
     width: 200px;
     height: 100px;
     background-color: green;
@@ -34,7 +34,7 @@
     align-items: center;
     color: white;
 }
-.yellow{
+.yellow {
     width: 200px;
     height: 100px;
     background-color: yellow;
@@ -44,7 +44,7 @@
     align-items: center;
     color: black;
 }
-.blue{
+.blue {
     width: 200px;
     height: 100px;
     background-color: blue;
@@ -54,7 +54,7 @@
     align-items: center;
     color: white;
 }
-.black{
+.black {
     width: 200px;
     height: 100px;
     background-color: black;
@@ -64,7 +64,7 @@
     align-items: center;
     color: white;
 }
-.orange{
+.orange {
     width: 200px;
     height: 100px;
     background-color: orange;
@@ -74,7 +74,7 @@
     align-items: center;
     color: white;
 }
-.gold{
+.gold {
     width: 200px;
     height: 100px;
     background-color: gold;
@@ -85,17 +85,26 @@
     color: white;
 }
 
-.divbtn{
+.divbtn {
     position: absolute;
     margin-top: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.btn{
-    width: 100px;
-    height: 30px;
-    background-color: aqua;
+.btn {
+    width: auto;
+    height: auto;
+    background-color: rgb(122, 18, 163);
     border: none;
-    font-size: 20px;
-    color: black;
-    
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+    padding: 0px 10px;
+}
+
+.head h1 {
+    color: white;
+    margin-top: 20px;
 }

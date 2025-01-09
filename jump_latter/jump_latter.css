@@ -1,32 +1,32 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-body{
+body {
     width: 100vw;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-
+    background-color: #0a4970;
 }
 
-.container{
+.container {
     width: 700px;
     height: 200px;
-    background-color: gray;
+    background-color: rgb(128, 128, 128);
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.one{
+.one {
     font-size: 150px;
     display: inline-block;
 }
 
-.one:hover{
+.one:hover {
     color: red;
     background-image: linear-gradient(red, lime, blue, yellow);
 }
