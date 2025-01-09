@@ -1,7 +1,30 @@
-body{
+body {
     width: 100vw;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #08162f;
+}
+
+textarea {
+    padding: 10px;
+    background-color: #e8e6e6;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+#btn {
+    padding: 10px;
+    background-color: #087282;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+.speakH1 {
+    color: white;
+    text-transform: uppercase;
 }

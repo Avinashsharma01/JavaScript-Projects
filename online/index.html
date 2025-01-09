@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Online and Offline in javascript</title>
+        <style>
+            * {
+                padding: 0;
+                margin: 0;
+            }
+            body {
+                width: 100vw;
+                height: 100vh;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                background-color: rgb(202, 201, 201);
+            }
+            .online {
+                width: 300px;
+                height: 200px;
+                background-color: gray;
+                border-radius: 20px;
+                box-shadow: 10px black;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 30px;
+            }
+            img {
+                width: 100%;
+            }
+            .info {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+            .infoh1 {
+                background-color: #23272e;
+                color: green;
+                margin-bottom: 10px;
+                width: 100%;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="info">
+            <h1 class="infoh1">
+                You need to go Offline to check it , working or not working
+            </h1>
+            <img src="./onoff.png" alt="" />
+        </div>
+        <div class="online"></div>
+        <script src="\online\online.js"></script>
+    </body>
+</html>

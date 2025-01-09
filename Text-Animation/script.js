@@ -1,11 +1,11 @@
-let animatedText=document.querySelector(".animatedText")
-let text="Hey Guys my name is Avinash Kumar Sharma and i am a b tech second year student "
+let animatedText = document.querySelector(".animatedText")
+let text = "Hey Guys my name is Avinash Kumar Sharma and i am a b tech second year student "
 
 // console.log(text.substring(0,1))
 // for(let i=0; i<=text.length; i++){
 //     // console.log(text.substring(0,i))
 //     animatedText.textContent=text.substring(0,i)
-   
+
 // }
 
 
@@ -23,15 +23,16 @@ let text="Hey Guys my name is Avinash Kumar Sharma and i am a b tech second year
 
 
 
-    let j=0
-    let speedAni=()=>{
-        animatedText.textContent=text.substring(0,j)
-        j++
+let j = 0
+let speedAni = () => {
+    animatedText.textContent = text.substring(0, j)
+    j++
 
-        if(j>text.length){
-            j=0
-        }
-        setTimeout(speedAni, 20)
+    if (j > text.length) {
+        j = 0
     }
-    
-    speedAni()
+
+    setTimeout(speedAni, 20)
+}
+
+speedAni()

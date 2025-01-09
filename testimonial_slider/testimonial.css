@@ -1,41 +1,42 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-html , body{
+html,
+body {
     height: 100%;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #02374c;
 }
 
-.container{
+.container {
     width: 500px;
     height: auto;
     background-color: rgb(255, 255, 255);
-    border-radius:20px;
+    border-radius: 20px;
     padding: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    box-shadow: inset 0px 0px 10px 0px  ;
+    box-shadow: inset 0px 0px 10px 0px;
 }
-.image{
+.image {
     display: flex;
     justify-content: center;
     margin-top: -70px;
 }
-img{
+img {
     width: 120px;
     height: 120px;
     border-radius: 50%;
 }
-.testimonial{
+.testimonial {
     margin-top: 40px;
 }
-.author{
+.author {
     margin-top: 30px;
-
 }
