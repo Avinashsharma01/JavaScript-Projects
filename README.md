@@ -1,9 +1,9 @@
-![alt text](http://url/to/img.png)
+### Intro 
+
+in this repo has some basic javaScript projects, that will boost your logic building 
 
 
 
-
-write  Hello and enter and you will get this one 
 <!-- ========== Start Section ========== -->
 
 <!-- ========== End Section ========== -->
