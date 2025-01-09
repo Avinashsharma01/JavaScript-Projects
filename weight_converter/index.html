@@ -1,23 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Weight converter</title>
-    <link rel="stylesheet" href="\weight_converter\weight.css">
-</head>
-<body>
-    <div class="weight-container">
-        <div class="heading"><h1>Weight Converter</h1></div>
-        <div class="inputcon">
-            <input type="number" placeholder="Type weight in kg. " class="inputkg">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Weight converter</title>
+        <link rel="stylesheet" href="./weight.css" />
+    </head>
+    <body>
+        <div class="weight-container">
+            <div class="heading"><h1>Weight Converter</h1></div>
+            <div class="inputcon">
+                <input
+                    type="number"
+                    placeholder="Type weight in kg. "
+                    class="inputkg"
+                />
+            </div>
+            <div class="outputcon">
+                <label for="Avi">Your weight in pound.</label>
+                <h3 class="result"></h3>
+            </div>
         </div>
-        <div class="outputcon">
-            <label for="Avi" >Your weight in pound.</label>
-            <h3 class="result"></h3>
-        </div>
-    </div>
 
-    <script src="\weight_converter\weight.js"></script>
-</body>
+        <script src="./weight.js"></script>
+    </body>
 </html>

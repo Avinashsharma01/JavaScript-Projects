@@ -1,45 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Password generator</title>
-    <link rel="stylesheet" href="\password_generator\pass.css" />
-  </head>
-  <body style="background-color: rgb(185, 174, 174);">
-    <div class="container">
-      <div class="head">
-        <h1>Password Generator</h1>
-      </div>
-      <div class="input_pass Avinash">
-        <input type="text" class="input_field" placeholder="Password">
-       <button class="btn">Copy</button>
-    </div>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Password generator</title>
+        <link rel="stylesheet" href="./pass.css" />
+    </head>
+    <body style="background-color: rgb(185, 174, 174)">
+        <div class="container">
+            <div class="head">
+                <h1>Password Generator</h1>
+            </div>
+            <div class="input_pass Avinash">
+                <input type="text" class="input_field" placeholder="Password" />
+                <button class="btn">Copy</button>
+            </div>
 
-    <div class="Avinash">
-        <label for="Avinash"> Lenght</label>
-        <input type="number" class="maxnumber" value="10" minlength="5" maxlength="20">
-    </div>
-    <div class="Avinash">
-        <label for="upper" > Uppercase</label>
-        <input type="checkbox" class="upper" checked>
-    </div>
-    <div class="Avinash">
-        <label for="lower"> Lowercase</label>
-        <input type="checkbox" class="lower" checked>
-    </div>
-    <div class="Avinash">
-        <label for="number"> Number</label>
-        <input type="checkbox" class="number" checked>
-    </div>
-    <div class="Avinash">
-        <label for="symbol"> Symbol</label>
-        <input type="checkbox" class="symbol" checked>
-    </div>
-    <div class="generate_btn">
-        <button class="generate"> Generate password</button>
-    </div>
-    </div>
-    <script src="\password_generator\pass.js"></script>
-  </body>
+            <div class="Avinash">
+                <label for="Avinash"> Lenght</label>
+                <input
+                    type="number"
+                    class="maxnumber"
+                    value="10"
+                    minlength="5"
+                    maxlength="20"
+                />
+            </div>
+            <div class="Avinash">
+                <label for="upper"> Uppercase</label>
+                <input type="checkbox" class="upper" checked />
+            </div>
+            <div class="Avinash">
+                <label for="lower"> Lowercase</label>
+                <input type="checkbox" class="lower" checked />
+            </div>
+            <div class="Avinash">
+                <label for="number"> Number</label>
+                <input type="checkbox" class="number" checked />
+            </div>
+            <div class="Avinash">
+                <label for="symbol"> Symbol</label>
+                <input type="checkbox" class="symbol" checked />
+            </div>
+            <div class="generate_btn">
+                <button class="generate">Generate password</button>
+            </div>
+        </div>
+        <script src="./pass.js"></script>
+    </body>
 </html>
