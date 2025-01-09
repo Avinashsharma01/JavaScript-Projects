@@ -1,31 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Multiplication with js </title>
-    <link rel="stylesheet" href="\multiplication\mul.css">
-</head>
-<body>
-    <div class="container">
-        <div class="score">
-            <p>Score <span id="score" ></span></p>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Multiplication with js</title>
+        <link rel="stylesheet" href="./mul.js" />
+    </head>
+    <body>
+        <div class="container">
+            <div class="score">
+                <p>Score <span id="score"></span></p>
+            </div>
+            <div class="question">
+                <h2>
+                    What is of <span id="num1">1</span> *
+                    <span id="num2">1</span>
+                </h2>
+            </div>
+            <div class="input">
+                <input
+                    type="text"
+                    placeholder="type your ansewer here."
+                    class="inputQ"
+                />
+            </div>
+            <div class="submit">
+                <button class="btn">Submit</button>
+            </div>
         </div>
-        <div class="question">
-            <h2>What is of <span id="num1">1</span> * <span id="num2">1</span></h2>
-        </div>
-        <div class="input" >
-            <input type="text" placeholder="type your ansewer here." class="inputQ" >
-        </div>
-        <div class="submit">
-            <button class="btn"> Submit</button>
-        </div>
-    </div>
 
-    <div class="container2" id="hello" >
-        <p class="display">Result will be displayed here. </p>
-        <p class="result"></p>
-    </div>
-    <script src="\multiplication\mul.js"></script>
-</body>
+        <div class="container2" id="hello">
+            <p class="display">Result will be displayed here.</p>
+            <p class="result"></p>
+        </div>
+        <script src="./mul.js"></script>
+    </body>
 </html>
