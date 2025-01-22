@@ -5,15 +5,27 @@ body {
     justify-content: center;
     align-items: center;
     background-color: #08162f;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 textarea {
     padding: 10px;
     background-color: #e8e6e6;
+    width: 100%;
+    max-width: 600px;
+    box-sizing: border-box;
 }
+
 .container {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 800px;
 }
 
 #btn {
@@ -22,9 +34,45 @@ textarea {
     font-size: 20px;
     color: white;
     cursor: pointer;
+    margin-top: 10px;
+    width: 100%;
+    max-width: 200px;
+    text-align: center;
 }
 
 .speakH1 {
     color: white;
     text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    textarea {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    #btn {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 10px;
+    }
+
+    textarea {
+        font-size: 14px;
+    }
+
+    #btn {
+        font-size: 18px;
+    }
+
+    .speakH1 {
+        font-size: 18px;
+    }
 }
